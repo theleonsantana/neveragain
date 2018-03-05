@@ -1,0 +1,105 @@
+/*
+* Example style!
+* You can do whatever the hell you want on your site :-)
+*/
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed:300');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.97);
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 28em;
+  text-align: center;
+  line-height: 1em;
+  margin: 0;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  text-transform: uppercase;
+}
+#twitterStyles {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 30vw;
+  height: 50vh;
+}
+div#twitter {
+  background-color: rgb(0, 0, 0);
+}
+#twitter .tweet-content {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+  color: #3d3d3d;
+  padding: 0 0.5em 0;
+}
+
+.tweet-infos {
+  font-family: 'Anton', sans-serif;
+  font-size: 1em;
+  color: #3d3d3d;
+  padding: 0 0.5em 0;
+}
+
+a {
+  font-family: 'Anton', sans-serif;
+  color: #042c77;
+  font-size: 1em;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+ul li {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.TweetAuthor img {
+  border-radius: 50%;
+  border: 2px solid white;
+  opacity: 0.5;
+}
+.TweetAuthor span {
+  flex-direction: row;
+  margin: 0 0.5em 0;
+}
+.TweetAuthor-verifiedBadge {
+  display: none;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 1) {
+  h1 {
+    font-size: 20em;
+  }
+  #twitterStyles {
+    width: 90vw;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 20em;
+  }
+  #twitterStyles {
+    width: 50vw;
+  }
+}
