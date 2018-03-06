@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: rgb(165, 136, 85);
 }
 ul {
   display: block;
@@ -20,7 +20,7 @@ ul {
 }
 h1 {
   font-family: 'Anton', sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 28em;
   text-align: center;
   line-height: 1em;
@@ -43,25 +43,26 @@ h1 {
   height: 50vh;
 }
 div#twitter {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(165, 136, 85);
+  border: 3px solid white;
 }
 #twitter .tweet-content {
   font-family: 'Anton', sans-serif;
   font-size: 1.5em;
-  color: #3d3d3d;
+  color: rgb(0, 0, 0);
   padding: 0 0.5em 0;
 }
 
 .tweet-infos {
   font-family: 'Anton', sans-serif;
   font-size: 1em;
-  color: #3d3d3d;
+  color: rgb(0, 0, 0);
   padding: 0 0.5em 0;
 }
 
 a {
   font-family: 'Anton', sans-serif;
-  color: #042c77;
+  color: #800606;
   font-size: 1em;
   text-decoration: none;
   pointer-events: none;
@@ -77,12 +78,12 @@ ul li {
 .TweetAuthor img {
   border-radius: 50%;
   border: 2px solid white;
-  opacity: 0.5;
 }
 .TweetAuthor span {
   flex-direction: row;
   margin: 0 0.5em 0;
 }
+
 .TweetAuthor-verifiedBadge {
   display: none;
 }
