@@ -2,7 +2,7 @@
 * Example style!
 * You can do whatever the hell you want on your site :-)
 */
-@import url('https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 body {
   margin: 0;
@@ -20,12 +20,11 @@ ul {
 }
 h1 {
   font-family: 'Anton', sans-serif;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 28em;
+  color: rgb(0, 0, 0);
+  font-size: 8em;
   text-align: center;
   line-height: 1em;
-  margin: 0;
-  position: fixed;
+  margin: 0.5em 0 0.5em;
   top: 20px;
   right: 0;
   left: 0;
@@ -33,18 +32,14 @@ h1 {
   text-transform: uppercase;
 }
 #twitterStyles {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 30vw;
-  height: 50vh;
+  margin: 0 auto;
+
+  width: 600px;
+  height: 20vh;
 }
 div#twitter {
-  background-color: rgb(165, 136, 85);
-  border: 3px solid white;
+  background-color: rgb(194, 158, 95);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #twitter .tweet-content {
   font-family: 'Anton', sans-serif;
@@ -77,30 +72,42 @@ ul li {
 
 .TweetAuthor img {
   border-radius: 50%;
-  border: 2px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid white;
 }
+
 .TweetAuthor span {
   flex-direction: row;
-  margin: 0 0.5em 0;
+  margin-left: 0.5em;
 }
 
 .TweetAuthor-verifiedBadge {
   display: none;
 }
 
+#action {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+}
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 1) {
   h1 {
-    font-size: 20em;
+    margin: 1.5em 0 1.5em;
+    font-size: 3em;
   }
   #twitterStyles {
-    width: 90vw;
+    width: 400px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   h1 {
-    font-size: 20em;
+    margin: 1.5em 0 1.5em;
+    font-size: 5em;
   }
   #twitterStyles {
-    width: 50vw;
+    width: 700px;
   }
 }
